@@ -1,0 +1,38 @@
+@import './base.css';
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.bg-home {
+  background-color: #98eff4; 
+}
+.bg-projects {
+  background-color: #8efa83;
+}
+.bg-contacts {
+  background-color: #f66969;
+}
+.bg-about {
+  background-color: #f5fc3c;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 512px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: flex;
+    padding:  0rem;
+  }
+}
